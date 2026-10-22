@@ -36,7 +36,7 @@ export default function Counter() {
 - `[count]` merupakan array dependensi yang membuat effect dijalankan kembali ketika nilai `count` berubah.
 - `document.title` mengubah judul tab browser sesuai jumlah klik.
 
-### B. Memahami Array Dependensi
+### B. Array Dependensi
 
 Array dependensi menentukan kapan suatu effect perlu dijalankan kembali.
 
@@ -64,7 +64,7 @@ useEffect(() => {
 - Dengan `[]`, effect dijalankan saat komponen dipasang, dengan catatan React Strict Mode dapat menjalankan siklus tambahan dalam lingkungan pengembangan.
 - Dengan `[name]`, effect dijalankan saat komponen dipasang dan ketika nilai `name` berubah.
 
-### C. Menggunakan Fungsi Cleanup
+### C. Fungsi Cleanup
 
 Fungsi cleanup digunakan untuk membersihkan efek samping, misalnya menghentikan timer atau melepaskan event listener.
 
